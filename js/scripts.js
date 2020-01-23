@@ -13,7 +13,7 @@ function isConsonant(char){
   return false;
 }
 
-function toPigLatin(input){
+function wordToPigLatin(input){
   var result = input;
   var firstChar = input.charAt(0);
 
@@ -37,7 +37,11 @@ function toPigLatin(input){
   return result;
 }
 
-
+function sentenceToPigLatin(sentence){
+  var wordsArray = sentence.split(" ");
+  var pigWordsArray = wordsArray.map(wordToPigLatin);
+  return pigWordsArray.join(" ");
+}
 
 $(document).ready(function(){
 
@@ -45,6 +49,6 @@ $(document).ready(function(){
     event.preventDefault();
 
     var userInput = $("#user-input").val();
-    $("#result").text(toPigLatin(userInput));
+    $("#result").text(sentenceToPigLatin(userInput));
   })
 })
