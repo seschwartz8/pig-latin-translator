@@ -11,19 +11,19 @@ This project was written with Javascript to translate any English word or senten
 ### Specs
 Program does nothing to non-alphabetical characters
 * Example input: 3
-* Example output: 3
+* Example output: 3  
 Program adds "way" to words beginning with a vowel
 * Example input: in
-* Example output: inway
+* Example output: inway  
 Program moves all consecutive consonants at start of word to end and adds "ay"
 * Example input: Pig
-* Example output: igPay
+* Example output: igPay  
 Program treats "y" as a consonant for words that start with "y"
 * Example input: yarn
-* Example output: arnyay
+* Example output: arnyay  
 Program moves "u" characters that follow "q" from start of word to end as well
 * Example input: squeal
-* Example output: ealsquay
+* Example output: ealsquay  
 Program works for sentence inputs as well as words
 * Example input: I am a pig
 * Example output: Iway amway away igpay
