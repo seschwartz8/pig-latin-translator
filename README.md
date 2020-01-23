@@ -24,6 +24,9 @@ Program treats "y" as a consonant for words that start with "y"
 Program moves "u" characters that follow "q" from start of word to end as well
 * Example input: squeal
 * Example output: ealsquay
+Program works for sentence inputs as well as words
+* Example input: I am a pig
+* Example output: Iway amway away igpay
 
 ## Setup/Installation Requirements
 
