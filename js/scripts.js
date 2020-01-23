@@ -23,7 +23,8 @@ function toPigLatin(input){
     var ending = "";
     for (var i = 0; i < input.length; i++){
       var currentChar = input.charAt(i);
-      if (isConsonant(currentChar)){
+      var prevChar = input.charAt(i-1);
+      if (isConsonant(currentChar) || ((currentChar === "u") && (prevChar === "q"))){
         ending = ending.concat(currentChar);
       } else {
         result = result.slice(i);

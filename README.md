@@ -12,9 +12,9 @@ This project was written with Javascript to translate any English word or senten
 Program does nothing to non-alphabetical characters
 * Example input: 3
 * Example output: 3
-Program adds "way" to single-letter words beginning with a vowel
-* Example input: i
-* Example output: iway
+Program adds "way" to words beginning with a vowel
+* Example input: in
+* Example output: inway
 Program moves all consecutive consonants at start of word to end and adds "ay"
 * Example input: Pig
 * Example output: igPay
