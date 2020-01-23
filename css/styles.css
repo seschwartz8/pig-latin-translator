@@ -1,0 +1,23 @@
+body {
+  background-color: #ffeeed;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+form {
+  margin: 30px;
+}
+
+#result {
+  text-align: center;
+  font-size: 1.5em;
+}
